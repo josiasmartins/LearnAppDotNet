@@ -66,3 +66,4 @@
 /home/josias/Documents/projects/dotnet/DotNetCourse/learningapp/obj/Release/net8.0/learningapp.genruntimeconfig.cache
 /home/josias/Documents/projects/dotnet/DotNetCourse/learningapp/obj/Release/net8.0/ref/learningapp.dll
 /home/josias/Documents/projects/dotnet/DotNetCourse/learningapp/obj/Release/net8.0/learningapp.sourcelink.json
+/home/josias/Documents/projects/dotnet/DotNetCourse/learningapp/obj/Release/net8.0/learningapp.MvcApplicationPartsAssemblyInfo.cs

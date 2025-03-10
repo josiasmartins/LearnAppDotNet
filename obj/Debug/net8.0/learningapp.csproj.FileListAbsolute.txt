@@ -132,3 +132,12 @@ C:/tmp3/learningapp/obj/Debug/net8.0/ref/learningapp.dll
 /home/josias/Documents/projects/dotnet/DotNetCourse/learningapp/obj/Debug/net8.0/learningapp.pdb
 /home/josias/Documents/projects/dotnet/DotNetCourse/learningapp/obj/Debug/net8.0/learningapp.genruntimeconfig.cache
 /home/josias/Documents/projects/dotnet/DotNetCourse/learningapp/obj/Debug/net8.0/ref/learningapp.dll
+/home/josias/Documents/projects/dotnet/DotNetCourse/learningapp/obj/Debug/net8.0/learningapp.sourcelink.json
+/home/josias/Documents/projects/dotnet/DotNetCourse/learningapp/bin/Debug/net8.0/Azure.Data.AppConfiguration.dll
+/home/josias/Documents/projects/dotnet/DotNetCourse/learningapp/bin/Debug/net8.0/Azure.Messaging.EventGrid.dll
+/home/josias/Documents/projects/dotnet/DotNetCourse/learningapp/bin/Debug/net8.0/Azure.Security.KeyVault.Secrets.dll
+/home/josias/Documents/projects/dotnet/DotNetCourse/learningapp/bin/Debug/net8.0/DnsClient.dll
+/home/josias/Documents/projects/dotnet/DotNetCourse/learningapp/bin/Debug/net8.0/Microsoft.Azure.AppConfiguration.AspNetCore.dll
+/home/josias/Documents/projects/dotnet/DotNetCourse/learningapp/bin/Debug/net8.0/Microsoft.Extensions.Configuration.AzureAppConfiguration.dll
+/home/josias/Documents/projects/dotnet/DotNetCourse/learningapp/bin/Debug/net8.0/System.ClientModel.dll
+/home/josias/Documents/projects/dotnet/DotNetCourse/learningapp/obj/Debug/net8.0/learningapp.MvcApplicationPartsAssemblyInfo.cs

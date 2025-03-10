@@ -17,8 +17,20 @@ public class IndexModel : PageModel
 
     public void OnGet()
     {
-       
-        string connectionString = _configuration.GetConnectionString("AZURE_SQL_CONNECTIONSTRING")!;
+
+        // usando o azure function para trazer os dados do banco
+        string functionURL = "https://appfunction445.azurewebsites.net/api/sqltrigger";
+        using(HttpClient client = new HttpClient()) {
+            HttpResponseMessage response = await client.GetAsync(functionURL);
+            string content = await response.Context.ReadAsStringAsync();
+            Courses = JsonConverter.DeserializeObject<List<Course>>(content);
+            return Page();
+
+            
+        //string connectionString = _configuration.GetConnectionString("AZURE_SQL_CONNECTIONSTRING")!;
+/*         var config = _configuration.GetSection("Common:Settings");
+        string? connectionString = config.GetValue<string>("dbpassword");
+
         var sqlConnection = new SqlConnection(connectionString);
         sqlConnection.Open();
 
@@ -32,6 +44,10 @@ public class IndexModel : PageModel
                     CourseName=sqlDatareader["CourseName"].ToString(),
                     Rating=Decimal.Parse(sqlDatareader["Rating"].ToString())});
                 }
-         }
+         }   */
+
+        }
+
+
     }
 }
